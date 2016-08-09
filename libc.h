@@ -60,6 +60,7 @@ typedef int32_t s32int;
 typedef unsigned char uchar;
 typedef unsigned long long uvlong;
 typedef long long vlong;
+typedef unsigned long ulong;
 
 typedef
 struct Qid

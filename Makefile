@@ -26,7 +26,8 @@ CFLAGS=	-O2 -pipe\
 		-D_FILE_OFFSET_BITS=64\
 		-DFUSE_USE_VERSION=26\
 		-D_GNU_SOURCE
-LDFLAGS=
+CFLAGS+= -I/usr/local/include
+LDFLAGS= -L/usr/local/lib
 LDADD=	-lfuse
 
 all:	${TARG}
